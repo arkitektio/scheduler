@@ -1,0 +1,31 @@
+app_images:
+- appImageId: 5537aaf3d8cc4af8b68dae596fd7ce9c
+  flavourName: vanilla
+  image:
+    buildAt: '2025-05-19T09:32:28.606448'
+    imageString: jhnnsrs/scheduler:0.0.1-vanilla
+  inspection:
+    implementations: []
+    requirements:
+    - description: An instance of ArkitektNext fluss to retrieve graphs from
+      key: fluss
+      optional: false
+      service: live.arkitekt.fluss
+    - description: An instance of ArkitektNext Lok to authenticate the user
+      key: lok
+      optional: false
+      service: live.arkitekt.lok
+    - description: An instance of ArkitektNext Rekuest to assign to actions
+      key: rekuest
+      optional: false
+      service: live.arkitekt.rekuest
+    size: 493361269
+  manifest:
+    author: jhnnsrs
+    entrypoint: app
+    identifier: scheduler
+    scopes:
+    - read
+    version: 0.0.1
+  selectors: []
+latest_app_image: 5537aaf3d8cc4af8b68dae596fd7ce9c
