@@ -1,0 +1,2 @@
+from arkitekt_next import register
+import reaktion_next

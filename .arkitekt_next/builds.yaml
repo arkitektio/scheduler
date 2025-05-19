@@ -1,0 +1,86 @@
+builds:
+- build_id: cbcfdbae-f994-42a7-92cf-5beb46e43da6
+  build_run: 0fb3ae7b-5e40-4814-b517-de373f633d68
+  description: This is a vanilla flavour
+  flavour: vanilla
+  inspection:
+    implementations: []
+    requirements:
+    - description: An instance of ArkitektNext fluss to retrieve graphs from
+      key: fluss
+      optional: false
+      service: live.arkitekt.fluss
+    - description: An instance of ArkitektNext Lok to authenticate the user
+      key: lok
+      optional: false
+      service: live.arkitekt.lok
+    - description: An instance of ArkitektNext Rekuest to assign to actions
+      key: rekuest
+      optional: false
+      service: live.arkitekt.rekuest
+    size: 493359562
+  manifest:
+    author: jhnnsrs
+    entrypoint: app
+    identifier: scheduler
+    scopes:
+    - read
+    version: 0.0.1
+  selectors: []
+- build_id: 3ca2518e-cf9e-4520-8f50-5ab9e4a9b3f6
+  build_run: 48270a6f-1640-4abc-884e-d806a2a497d7
+  description: This is a vanilla flavour
+  flavour: vanilla
+  inspection:
+    implementations: []
+    requirements:
+    - description: An instance of ArkitektNext fluss to retrieve graphs from
+      key: fluss
+      optional: false
+      service: live.arkitekt.fluss
+    - description: An instance of ArkitektNext Lok to authenticate the user
+      key: lok
+      optional: false
+      service: live.arkitekt.lok
+    - description: An instance of ArkitektNext Rekuest to assign to actions
+      key: rekuest
+      optional: false
+      service: live.arkitekt.rekuest
+    size: 493360447
+  manifest:
+    author: jhnnsrs
+    entrypoint: app
+    identifier: scheduler
+    scopes:
+    - read
+    version: 0.0.1
+  selectors: []
+- build_id: 37183e85-6df4-4b55-bed9-99e89f0db170
+  build_run: 5efa1cc8-85fb-4a4c-9e53-28f1fcad910c
+  description: This is a vanilla flavour
+  flavour: vanilla
+  inspection:
+    implementations: []
+    requirements:
+    - description: An instance of ArkitektNext fluss to retrieve graphs from
+      key: fluss
+      optional: false
+      service: live.arkitekt.fluss
+    - description: An instance of ArkitektNext Lok to authenticate the user
+      key: lok
+      optional: false
+      service: live.arkitekt.lok
+    - description: An instance of ArkitektNext Rekuest to assign to actions
+      key: rekuest
+      optional: false
+      service: live.arkitekt.rekuest
+    size: 493361269
+  manifest:
+    author: jhnnsrs
+    entrypoint: app
+    identifier: scheduler
+    scopes:
+    - read
+    version: 0.0.1
+  selectors: []
+latest_build_run: 5efa1cc8-85fb-4a4c-9e53-28f1fcad910c
